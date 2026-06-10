@@ -2581,12 +2581,14 @@ input, select, textarea {
 			}
 
 				#banner .inner p a {
+					display: none;
 					color: inherit;
 					font-weight: 400;
 					text-decoration: none;
 				}
 
 			#banner .inner footer {
+				display: none;
 				margin: 2em 0 0 0;
 			}
 
