@@ -3340,12 +3340,7 @@ input, select, textarea {
 				height: 34px;
 			}
 
-	}
-/* Forcefully remove header/banner diagonal triangles */
-#banner:before, 
-#banner:after,
-.panel:before,
-.panel:after {
+	#banner::before, #banner::after, .panel::before, .panel::after {
     display: none !important;
     border: none !important;
     background: none !important;
